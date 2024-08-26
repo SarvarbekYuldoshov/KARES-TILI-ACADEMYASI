@@ -1,0 +1,92 @@
+{
+    "header":{
+        "header_text":"Toshkentda joylashgan Koreys tili hamda Topik o’quv markazi",
+        "header_link_1":"Nega biz",
+        "header_link_2":"Natijalar",
+        "header_link_3":"Kurslar",
+        "header_link_4":"Ko’p beriladigan savollar",
+        "header_title":"Hoziroq bog’laning"
+    },
+    "hero":{
+        "hero_text_1":"3 oyda Koreys tilida gapirishni boshlang",
+        "hero_title":"Janubiy Koreya Universitetlarida 100% gacha grant asosida o’qish imkoniyati",
+        "hero_matn_1":"5 oyda Topikdan 6 darajagacha olishda yordam beramiz",
+        "hero_matn_2":"Topikdan yuqori darajani qo’lga kiritib, Janubiy Koreyada o’qish va ishlash imkoniyati",
+        "hero_btn":"Bepul Darsga yozilish",
+        "hero_text_2":"Birinchi darsga bepul yoziling!"
+    },
+    "home":{
+        "home_title":"TOPIK academy aniq siz uchun agar siz:",
+        "home_text_1":"Qisqa muddat ichida Koreys tilida gapirishni istaysiz",
+        "home_text_2":"Koreys tili o’rganib o’z karyerangizni qurmoqchisiz",
+        "home_text_3":"Topik sertifikatini olib Koreyaning nufuzli universitetlariga GRANT yutmoqchisiz",
+        "home_text_4":"Janubiy Koreya davlatida o’qish va ishlash uchun ketmoqchisiz",
+        "home_text_5":"Koreys tilini o’rta darajda bilasiz va darajangizni oshirmoqchisiz",
+        "home_text_6":"Ko’p yillardan buyon o’qib ham natijaga chiqa olmayapsiz",
+        "home_btn":"Ha, bu men"
+    },
+    "model":{
+        "model_title":"O’quvchilarimizning natijalari TOPIK 6 gacha"
+    },
+    "wrapper":{
+        "wrapper_title":"Koreya Universitetlariga 100% gacha grant yutish imkoniyati",
+        "wrapper_title_1":"GKS (Global Korean Scholarship) $70.000 lik Grant",
+        "wrapper_text_1":"Janubiy Koreya hukumatining stipendiya dasturi (GKS) Koreyaning Xalqaro ta'lim bo'yicha milliy instituti tomonidan xorijiy talabalarning Koreyada bakalavr va magistratura bosqichida 100% gacha to’liq grantva oylik stipendiya olish imkoniyatingiz bor",
+        "wrapper_title_2":"GKS granti sizga nima beradi",
+        "wrapper_text_2":"Dastur boshlanganida va tugaganida Koreyaga borish hamda Koreyadan qaytish xarajatlari qoplanadi.",
+        "wrapper_text_3":"Koreyaga yetib borganda joylashib olish uchun bir martalik to'lovberiladi. Miqdori - 200 000 Koreya voni (taxminan 157 AQSh dollari).",
+        "wrapper_text_4":"Til kursi va universitetning kontrak to'lovi to'liq to'lab beriladi (faqat magistr va doktorantlarga)... ko’proq"
+    },
+    "number":{
+        "number_title":"Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant yutishda yordam beramiz",
+        "number_text_1":"TOPIK academy consulting jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi",
+        "number_text_2":"Ko’proq ma’lumot olish uchun bepul konsultatsiyaga yoziling!",
+        "number_btn":"Ariza qoldirish"
+    },
+    "close":{
+        "close_text":"O’zingizga mos kursga ro’yxatdan o’ting",
+        "close_text_1":"Intiensive",
+        "close_btn_1":"Davomiyligi: 5 oy",
+        "close_text_2":"Koreys tilini chuqur o’zlashtirmoqchi bo’lganlar uchun haftada 6 kun 1.5 soatdan intensive kurs.",
+        "close_btn_2":"Ro’yxatdan o’tish",
+        "close_text_3":"Odatiy",
+        "close_btn_3":"Davomiyligi: 5 oy",
+        "close_text_4":"Haftada 3 kun 1.5 soatdan iborat odatiy Koreys tili darslari.",
+        "close_btn_4":"Ro’yxatdan o’tish",
+        "close_text_5":"Individual",
+        "close_btn_5":"Davomiyligi: 5 oy",
+        "close_text_6":"O’qituvchidan individual dars olmoqchi bo’lganlar uchun haftada 3 kun 1.5 soatdan darslar. Moslashuvchan grafik va individual yondashuv.",
+        "close_btn_6":"Ro’yxatdan o’tish"
+    },
+    "main":{
+        "main_title":"Nima uchun aynan TOPIK academy?",
+        "main_title_1":"Professional ustozlar",
+        "main_text_1":"Sizga 4 yildan ortiq tajriba va Topik darajasi 6 bo’lgan o’qituvchilar dars beradi",
+        "main_title_2":"Bepul coworking zonalari",
+        "main_text_2":"Erkin dars qilish, netvorking va o’z ustingizda ishlash uchun bepul coworking zonalarimiz mavjud",
+        "main_title_3":"Haftalik tadbirlar",
+        "main_text_3":"TOPIK acdemy jamoasi o’quvchilari uchun doimiy ravishda qo’shimcha tadbirar tashkilb keladi",
+        "main_title_4":"Bepul sinov imtihonlari",
+        "main_text_4":"Har davomida tashkillanadigan sinov imtihonlarida qatnashib o’z darajangizni bilib borasiz",
+        "main_title_5":"Yordamchi kuratorlar",
+        "main_text_5":"Darslarni o’zlashtirishda qiyinchilik bo’lsa sizga yordam beradigan kuratoringiz bo’ladi",
+        "main_title_6":"Konsulting xizmatlar",
+        "main_text_6":"Muvafaqqiyatli bitirgan talabalarimizga Janubiy Koreyada o’qish uchun visa olishda, universitet tanlash va grand yutishda yordam beramiz"
+    },
+    "section":{
+        "section_title":"Savolaringiz qoldimi",
+        "section_text":"Malumotlaringizni qoldiring siz bilan bog'lanib barcha ssavolarga javob beramiz"
+    },
+    "footer":{
+        "footer_link_1":"Nega biz",
+        "footer_link_2":"Natijalar",
+        "footer_link_3":"Kurslar",
+        "footer_link_4":"Ko’p beriladigan savollar"
+    },
+    "faq":{
+        "fat_title_1":"O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
+        "fat_title_2":"O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
+        "fat_title_3":"O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?",
+        "fat_title_4":"O’quv materallar bilan ta’minlaysizlarmi yoki o’zim izlab topamanami?"
+    }
+}

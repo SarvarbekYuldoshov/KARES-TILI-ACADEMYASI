@@ -1,0 +1,95 @@
+{
+    "header": {
+        "header_text": "Korean Language and TOPIK Learning Center located in Tashkent",
+        "header_link_1": "Why Us",
+        "header_link_2": "Results",
+        "header_link_3": "Courses",
+        "header_link_4": "Frequently Asked Questions",
+        "header_title": "Contact Us Now"
+    },
+    "hero": {
+            "hero_text_1": "Start speaking Korean in 3 months",
+            "hero_title": "Opportunity to study at South Korean universities with up to 100% scholarships",
+            "hero_matn_1": "We help you achieve TOPIK Level 6 in 5 months",
+            "hero_matn_2": "Gain a high TOPIK score and unlock opportunities to study and work in South Korea",
+            "hero_btn": "Sign up for a free lesson",
+            "hero_text_2": "Sign up for the first lesson for free!"
+        },
+        "home": {
+            "home_title": "TOPIK Academy is perfect for you if you:",
+            "home_text_1": "Want to start speaking Korean in a short time",
+            "home_text_2": "Want to learn Korean and build your career",
+            "home_text_3": "Want to obtain a TOPIK certificate and win a scholarship to prestigious Korean universities",
+            "home_text_4": "Want to go to South Korea for studying and working",
+            "home_text_5": "Have an intermediate level of Korean and want to improve it",
+            "home_text_6": "Have been studying for years without achieving results",
+            "home_btn": "Yes, that's me"
+        },
+        "model": {
+            "model_title": "Our students' results up to TOPIK 6"
+        },
+        "wrapper": {
+            "wrapper_title": "Opportunity to Win Up to 100% Scholarship at Korean Universities",
+            "wrapper_title_1": "GKS (Global Korean Scholarship) $70,000 Grant",
+            "wrapper_text_1": "The South Korean Government's Scholarship Program (GKS) offers international students the opportunity to receive up to a 100% full scholarship and a monthly stipend for undergraduate and graduate studies in Korea through the National Institute for International Education of Korea.",
+            "wrapper_title_2": "What the GKS Scholarship Offers You",
+            "wrapper_text_2": "The program covers travel expenses to and from Korea at the beginning and end of the program.",
+            "wrapper_text_3": "A one-time settlement allowance of 200,000 Korean Won (approximately 157 USD) is provided upon arrival in Korea.",
+            "wrapper_text_4": "The language course and university tuition fees are fully covered (only for master’s and doctoral students)... read more"
+        },
+        "number": {
+            "number_title": "We Assist Our Successful Graduates in Choosing Universities and Winning Scholarships",
+            "number_text_1": "The TOPIK Academy consulting team will closely support you in selecting a university, obtaining a visa, and winning a scholarship.",
+            "number_text_2": "Sign up for a free consultation to learn more!",
+            "number_btn": "Submit Application"
+        },
+        "close": {
+            "close_text_1": "Intensive",
+            "close_btn_1": "Duration: 5 months",
+            "close_text_2": "An intensive course for those who want to master the Korean language in depth, 1.5 hours a day, 6 days a week.",
+            "close_btn_2": "Register",
+            "close_text_3": "Standard",
+            "close_btn_3": "Duration: 5 months",
+            "close_text_4": "Standard Korean language classes, 1.5 hours a day, 3 days a week.",
+            "close_btn_4": "Register",
+            "close_text_5": "Individual",
+            "close_btn_5": "Duration: 5 months",
+            "close_text_6": "For those who want to take individual lessons from a teacher, 1.5 hours a day, 3 days a week. Flexible schedule and personalized approach.",
+            "close_btn_6": "Register"
+        },
+        "main": {
+            "main_title": "Why exactly TOPIK academy?",
+            "main_title_1": "Professional Teachers",
+            "main_text_1": "You will be taught by teachers with more than 4 years of experience and a TOPIK level 6.",
+            "main_title_2": "Free Coworking Zones",
+            "main_text_2": "We have free coworking zones for flexible studying, networking, and self-improvement.",
+            "main_title_3": "Weekly Events",
+            "main_text_3": "The TOPIK academy team regularly organizes additional events for students.",
+            "main_title_4": "Free Trial Exams",
+            "main_text_4": "Participate in the regularly organized trial exams to keep track of your progress.",
+            "main_title_5": "Supportive Curators",
+            "main_text_5": "If you face difficulties in understanding lessons, you will have a curator to help you.",
+            "main_title_6": "Consulting Services",
+            "main_text_6": "We assist our successful graduates in obtaining visas, choosing universities, and winning scholarships for studying in South Korea."
+        }
+        ,"section": {
+            "section_title": "Do you have any questions?",
+            "section_text": "Leave your contact information, and we will get in touch with you to answer all your questions."
+        }
+        ,"footer": {
+            "footer_link_1": "Why Us",
+            "footer_link_2": "Results",
+            "footer_link_3": "Courses",
+            "footer_link_4": "Frequently Asked Questions"
+        }
+        ,
+        "faq": {
+            "fat_title_1": "Will you provide educational materials, or should I find them myself?",
+            "fat_title_2": "Will you provide educational materials, or should I find them myself?",
+            "fat_title_3": "Will you provide educational materials, or should I find them myself?",
+            "fat_title_4": "Will you provide educational materials, or should I find them myself?"
+        }
+        
+        
+        
+    }
