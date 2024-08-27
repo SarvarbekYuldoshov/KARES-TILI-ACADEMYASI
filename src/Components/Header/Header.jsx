@@ -21,9 +21,9 @@ const Header = () => {
             <li className='header-item'><a className='header-link' href="">{t("header.header_link_3")}</a></li>
             <li className='header-item'><a className='header-link' href="">{t("header.header_link_4")}</a></li>
         </ul>
-        <ul className='header-list'></ul>
-          <li className='header-item'>
-            <select name="" id="" onChange={handleLaguage} value={i18n.language}>
+        <ul className='header-list'>
+        <li className='header-item-a'>
+            <select className='select' name="" id="" onChange={handleLaguage} value={i18n.language}>
               <option value="uz">Uzbek</option>
               <option value="ru">Russian</option>
               <option value="en">English</option>
@@ -33,6 +33,7 @@ const Header = () => {
             <h1 className='header-title'>+998 (33) 306 0098</h1>
             <p className='header-desc'>{t("header.header_title")}</p>
           </li>  
+        </ul>
       </div>
     </div>
   )
