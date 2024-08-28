@@ -38,6 +38,9 @@
         "wrapper_text_3":"Koreyaga yetib borganda joylashib olish uchun bir martalik to'lovberiladi. Miqdori - 200 000 Koreya voni (taxminan 157 AQSh dollari).",
         "wrapper_text_4":"Til kursi va universitetning kontrak to'lovi to'liq to'lab beriladi (faqat magistr va doktorantlarga)... ko’proq"
     },
+    "hover":{
+          "hover_title":"GKS granti haqida to’liq siz uchun tayyorlagan video suhbatimizda bilib oling! ..."
+    },
     "number":{
         "number_title":"Muvafaqqiyatli bitiruvchilarimizga universitet tanlash va grant yutishda yordam beramiz",
         "number_text_1":"TOPIK academy consulting jamoasi sizga universitet tanlash, visa olish va grant yutishingizda yaqindan ko’maklashadi",

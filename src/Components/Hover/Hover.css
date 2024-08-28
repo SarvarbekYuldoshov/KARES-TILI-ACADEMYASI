@@ -1,0 +1,114 @@
+.null{
+    background-color: black;
+}
+.hover-title{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+    .container{
+        width: 1100px;
+    }
+  .hover-title{
+    font-size: 28px;
+
+  }
+  }
+  @media(max-width:1120px){
+  .container{
+      width: 1000px;
+  }
+  .hover-title{
+    font-size: 27px;
+  }
+  
+  }
+  @media(max-width:1020px){
+  .container{
+      width: 900px;
+  }
+  .hover-title{
+    font-size: 24px;
+  }
+  
+  
+  
+  }
+  @media(max-width:920px){
+  .container{
+      width: 800px;
+  }
+  .hover-title{
+    font-size: 21px;
+  }
+  
+  }
+  @media(max-width:820px){
+  .container{
+      width: 700px;
+  }
+  .hover-title{
+    font-size: 18px;
+  }
+  
+  
+  }
+  @media(max-width:720px){
+  .container{
+      width: 600px;
+  }
+  .hover-title{
+    font-size: 15px;
+  }
+  
+  
+  }
+  
+  @media(max-width:620px){
+  .container{
+      width: 500px;
+  }
+  .hover-title{
+    font-size: 12px;
+  }
+  .hover-img{
+    height: 200px;
+  }
+  
+  }
+  @media(max-width:520px){
+  .container{
+      width: 400px;
+  }
+  .hover-title{
+    font-size: 10px;
+  }
+  
+  
+  }
+  @media(max-width:420px){
+  .container{
+      width: 300px;
+  }
+  .hover-img{
+    margin-left: 80px;
+  }
+  .null{
+    margin-top: -5px;
+    margin-left: 80px;
+    width: 260px;
+  }
+  }

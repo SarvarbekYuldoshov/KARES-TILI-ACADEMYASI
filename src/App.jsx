@@ -6,6 +6,8 @@ import Home from './Components/Home/Home'
 import Model from './Components/Model/Model'
 import Wrapper from './Components/Wrapper/Wrapper'
 import Hover from './Components/Hover/Hover'
+import Number from './Components/Number/Number'
+import Close from './Components/Close/Close'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
           <Model/>
           <Wrapper/>
           <Hover/>
+          <Number/>
+          <Close/>
       </div>
     </>
   )
