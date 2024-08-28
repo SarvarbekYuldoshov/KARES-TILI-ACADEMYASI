@@ -61,7 +61,7 @@ const Number = () => {
              </Modal>
             </li>
             <li className='number-item-b'></li>
-                <Marquee direction="right" className='number-marque'>
+                <Marquee direction="right" className='number-marqu'>
                     <img className='number-img' src={Rasm_1} alt="" />
                     <img className='number-img' src={Rasm_1} alt="" />
                     <img className='number-img' src={Rasm_1} alt="" />
