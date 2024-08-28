@@ -387,6 +387,15 @@
   .container{
       width: 300px;
   }
+  .header-title{
+    display: none;
+  }
+  .header-img{
+    margin-left: 40px;
+  }
+  .header-desc{
+    display: none;
+  }
   .header-text{
     display: none;
   }
