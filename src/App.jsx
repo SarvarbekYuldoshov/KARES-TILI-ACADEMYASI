@@ -5,6 +5,7 @@ import Hero from './Components/Hero/Hero'
 import Home from './Components/Home/Home'
 import Model from './Components/Model/Model'
 import Wrapper from './Components/Wrapper/Wrapper'
+import Hover from './Components/Hover/Hover'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Home/>
           <Model/>
           <Wrapper/>
+          <Hover/>
       </div>
     </>
   )
