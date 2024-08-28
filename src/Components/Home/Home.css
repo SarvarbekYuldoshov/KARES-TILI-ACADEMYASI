@@ -251,21 +251,16 @@
     width: 500px;
   }
   .home-text{
-    margin-left: 60px;
+    margin-left: 50px;
     font-size:18px;
     width: 300px;
     text-align: center;
   }
   .home-img{
-    margin-left: 160px;
-    text-align: center;
+    margin-left: 140px;
     width: 120px;
     height: 120px;
   }
-  .home-list{
-    gap: 50px;
-    flex-wrap: wrap;
-  } 
   .home-btn{
     margin-left: 130px;
   }
