@@ -157,7 +157,7 @@ const Close = () => {
                             <Input onChange={(e)=>setNumber(e.target.value)} className='home-input-c' placeholder='Numberingiz  kiriting' />
                             </Form.Item>
                             <Button onClick={sendMessage}>Yuborish</Button>
-                        </Form>npm 
+                        </Form>
                     </Modal>
                     <p className='close-text-a'>970.000 so’m /oy </p>
                 </li>

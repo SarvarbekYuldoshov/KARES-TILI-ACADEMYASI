@@ -229,7 +229,8 @@
   .number-btn{
     margin-left: 80px;
   }
- .number-item-b{
-    display: none;
- }
+  .number-marqu{
+    width: 0px;
+    height: 0px;
+  }
   }

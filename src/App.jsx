@@ -9,6 +9,8 @@ import Hover from './Components/Hover/Hover'
 import Number from './Components/Number/Number'
 import Close from './Components/Close/Close'
 import Main from './Components/Main/Main'
+import Faq from './Components/Faq/Faq'
+import Section from './Components/Section/Section'
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           <Number/>
           <Close/>
           <Main/>
+          <Faq/>
+          <Section/>
       </div>
     </>
   )
