@@ -116,7 +116,9 @@
   .container{
       width: 600px;
   }
-  
+  .footer-container{
+    margin-top: 300px;
+  }
   
   
   }
@@ -142,6 +144,6 @@
   }
   .footer-container{
     margin-top: 500px;
-    margin-left: 110px;
+    margin-left: 70px;
   }
   }

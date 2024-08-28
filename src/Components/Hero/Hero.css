@@ -1,7 +1,7 @@
-.hero-cotainer{
-    display: flex;
-    align-items: center;
+.hero-container{
     background-image: url(../images/rasm_3.png);
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .hero-list{
     display: flex;
