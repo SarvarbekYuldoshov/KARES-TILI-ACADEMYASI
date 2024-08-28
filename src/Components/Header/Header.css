@@ -339,12 +339,12 @@
       width: 600px;
   }
   .header-title{
-    width: 110px;
+    width: 150px;
     height: 24px; 
     font-size: 12px; 
 }
 .header-desc{
-    width: 110px;
+    width: 160px;
     height: 25px; 
 }
   
@@ -382,7 +382,7 @@
     margin-left: -40px;
   }
   .header-title{
-    font-size: 11px;
+    font-size: 12px;
   }
   
   }

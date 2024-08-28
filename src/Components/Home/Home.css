@@ -1,27 +1,36 @@
 .home-container{
-    margin-top: 100px;
-    text-align: center;
+    align-items: center;
 }
 .home-img{
     background-color: rgb(218, 208, 227);
     border-radius: 50%;
     width: 103px;
     height: 103px;
-    margin-top: 50px;
+    margin: 0 auto;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.home-title{
+    width: 729px;
+    height: 44px;
+    font-family: "Gilroy-Medium" ,sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.67px;
+    text-align: center;
+    margin: 0 auto;
+    color: #333333;
 }
 .home-list{
-    margin-top: 40px;
-    gap: 50px;
+    gap: 20px;
     display: flex;
     flex-wrap: wrap;
 }
-.home-item{
-    width: 350px;
-}
 .home-text{
-    margin-top: 30px;
-    margin-left: 20px;
-    width: 289.17px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    width: 300px;
     height: 46px;
     font-family: "Gilroy-Bold" ,sans-serif;
     font-size: 18.82px;
@@ -95,92 +104,90 @@
         width: 1100px;
     }
     .home-text{
-        width: 250px;
-        height: 40px;
-        font-size: 13px;
+        width:280px;
+        font-size: 15px;
     }
-    .home-item{
-        width: 300px;
-    }
-    .home-btn{
-      margin-left: 400px;
-    }
-  
   }
   @media(max-width:1120px){
   .container{
       width: 1000px;
   }
+  .home-text{
+    width:250px;
+    font-size: 14px;
+  }
   .home-img{
-    width: 90px;
-    height: 90px;
-  }.home-item{
-    width: 250px;
+    margin-left: 120px;
   }
-  .home-btn{
-    margin-left: 350px;
-  }
-  
   }
   @media(max-width:1020px){
   .container{
       width: 900px;
   }
   .home-list{
-    gap: 30px;
+    gap: 60px;
   }
   .home-item{
     width: 200px;
   }
-  .home-btn{
-    text-align: left;
-    margin-left: 300px;
-  }
   .home-img{
-    margin-left: 100px;
+    margin-left: 120px;
   }
-  .home-title{
-    margin-right: 50px;
-  }
-  
-  
-  
   }
   @media(max-width:920px){
   .container{
       width: 800px;
   }  
+  .home-list{
+    gap: 50px;
+  }
+  .home-item{
+    width: 300px;
+  }
+  .home-img{
+    margin-left: 160px;
+  }
+  .home-text{
+    margin-left: 90px;
+  }
   }
   @media(max-width:820px){
   .container{
       width: 700px;
   }
   .home-title{
-    font-size: 20px;
-    text-align: center;
+    width: 700px;
+    font-size: 28px;
+    margin-left: -30px;
   }
   .home-item{
     width: 250px;
+  }  
+  .home-img{
+    margin-left: 120px;
   }
-  .home-btn{
-    margin-left: 200px;
+  .home-text{
+    margin-left: 50px;
   }
-  
-  
-  
   }
   @media(max-width:720px){
   .container{
       width: 600px;
   }
- .home-item{
-    width: 200px;
- }
- .home-text{
-  font-size: 15px;
-  width: 190px;
-  margin-left: 60px;
- }  
+  .home-title{
+    width: 450px;
+    font-size: 28px;
+    margin-left: 60px;
+  }
+  .home-item{
+    width: 220px;
+  }  
+  .home-img{
+    margin-left: 120px;
+  }
+  .home-text{
+    margin-left: 50px;
+  }
   }
   
   @media(max-width:620px){
@@ -188,24 +195,28 @@
       width: 500px;
   }
   .home-title{
+    margin-left: 20px;
     font-size: 25px;
-    width: 500px;
+    width: 450px;
   }
   .home-text{
     margin-left: 15px;
-    font-size:14px;
+    font-size:12px;
     width: 200px;
     text-align: center;
   }
   .home-img{
-    margin-left: 20px;
-    width: 60px;
-    height: 60px;
+    margin-left: 80px;
+    width: 80px;
+    height: 80px;
   }
   .home-list{
     gap: 50px;
     flex-wrap: wrap;
   }  
+  .home-item{
+    width: 200px;
+  }
   }
   @media(max-width:520px){
   .container{
@@ -215,14 +226,14 @@
     justify-content: center;
   }
   .home-title{
-    margin-left: -35px;
-    font-size: 22px;
-    width: 500px;
+    margin-left: 30px;
+    font-size: 20px;
+    width: 390px;
   }
   .home-text{
-    margin-left: 65px;
+    margin-left: 20px;
     font-size:18px;
-    width: 300px;
+    width: 390px;
     text-align: center;
   }
   .home-img{
@@ -246,23 +257,23 @@
       width: 300px;
   }
   .home-title{
-    margin-left: -45px;
-    font-size: 22px;
+    margin-left: -20px;
+    font-size: 20px;
     width: 500px;
   }
   .home-text{
-    margin-left: 50px;
+    margin-left: 85px;
     font-size:18px;
     width: 300px;
     text-align: center;
   }
   .home-img{
-    margin-left: 140px;
+    margin-left: 180px;
     width: 120px;
     height: 120px;
   }
   .home-btn{
-    margin-left: 130px;
+    margin-left: 160px;
   }
   .home-input-a{
     width: 200px;
