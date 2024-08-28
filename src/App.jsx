@@ -11,6 +11,8 @@ import Close from './Components/Close/Close'
 import Main from './Components/Main/Main'
 import Faq from './Components/Faq/Faq'
 import Section from './Components/Section/Section'
+import Footer from './Components/Footer/Footer'
+
 
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
     <>
       <div className='App'>
           <Header/>
-          {/* <Hero/> */}
+          <Hero/>
           <Home/>
           <Model/>
           <Wrapper/>
@@ -29,6 +31,7 @@ function App() {
           <Main/>
           <Faq/>
           <Section/>
+          <Footer/>
       </div>
     </>
   )
