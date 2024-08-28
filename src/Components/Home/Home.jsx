@@ -11,44 +11,42 @@ import { Button, Form, Input, Modal, message } from 'antd';
 
 const Home = () => {
   const [open, setOpen] = useState(false);
-  const [name, setName] = useState("");
-  const [surname, setSurname] = useState("");
-  const [number, setNumber] = useState("");
-  
+  const [form] = Form.useForm();
   const { t } = useTranslation();
 
   const sendMessage = () => {
-    if (!name || !surname || !number) {
-      message.error("Iltimos, barcha maydonlarni to'ldiring!");
-      return;
-    }
+    form.validateFields()
+      .then((values) => {
+        const { name, surname, number } = values;
 
-    const token = "7288526920:AAH-vd_HYqMjr_qE5zG6idFBNxfFeMi9aFo";
-    const chat_id = 6801549705;
-    const url = `https://api.telegram.org/bot${token}/sendMessage`;
-    const messageText = `Ism: ${name}\nFamiliya: ${surname}\nNumber: ${number}`;
+        const token = "7288526920:AAH-vd_HYqMjr_qE5zG6idFBNxfFeMi9aFo";
+        const chat_id = 6801549705;
+        const url = `https://api.telegram.org/bot${token}/sendMessage`;
+        const messageText = `Ism: ${name}\nFamiliya: ${surname}\nNumber: ${number}`;
 
-    fetch(url, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        "chat_id": chat_id,
-        "text": messageText,
-      }),
-    })
-      .then(res => res.json())
-      .then(res => {
-        message.success("Yuborildi");
-        setOpen(false);
-        setName("");
-        setSurname("");
-        setNumber("");
+        fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            "chat_id": chat_id,
+            "text": messageText,
+          }),
+        })
+          .then(res => res.json())
+          .then(res => {
+            message.success("Yuborildi");
+            setOpen(false);
+            form.resetFields(); // Clear form fields
+          })
+          .catch(err => {
+            console.error(err);
+            message.error("Yuborishda xatolik yuz berdi");
+          });
       })
-      .catch(err => {
-        console.error(err);
-        message.error("Yuborishda xatolik yuz berdi");
+      .catch(() => {
+        message.error("Iltimos, barcha maydonlarni to'ldiring!");
       });
   };
 
@@ -93,32 +91,28 @@ const Home = () => {
         <ul className='home-list'>
           <Button className='home-btn' onClick={showModal}>{t("home.home_btn")}</Button>
           <Modal open={open} footer={null} onCancel={closeModal}>
-            <Form>
-              <Form.Item>
-                <Input 
-                  onChange={(e) => setName(e.target.value)} 
-                  value={name}
-                  className='home-input-a' 
-                  placeholder='Ismingizni kiriting' 
-                />
+            <Form form={form} layout="vertical">
+              <Form.Item
+                name="name"
+                rules={[{ required: true, message: 'Ismingizni kiriting' }]}
+              >
+                <Input className='home-input-a' placeholder='Ismingizni kiriting' />
               </Form.Item>
-              <Form.Item>
-                <Input 
-                  onChange={(e) => setSurname(e.target.value)} 
-                  value={surname}
-                  className='home-input-b' 
-                  placeholder='Familiyangizni kiriting' 
-                />
+              <Form.Item
+                name="surname"
+                rules={[{ required: true, message: 'Familiyangizni kiriting' }]}
+              >
+                <Input className='home-input-b' placeholder='Familiyangizni kiriting' />
               </Form.Item>
-              <Form.Item>
-                <Input 
-                  onChange={(e) => setNumber(e.target.value)} 
-                  value={number}
-                  className='home-input-c' 
-                  placeholder='Raqamingizni kiriting' 
-                />
+              <Form.Item
+                name="number"
+                rules={[{ required: true, message: 'Raqamingizni kiriting' }]}
+              >
+                <Input className='home-input-c' placeholder='Raqamingizni kiriting' />
               </Form.Item>
-              <Button onClick={sendMessage}>Yuborish</Button>
+              <Button onClick={sendMessage} type="primary">
+                Yuborish
+              </Button>
             </Form>
           </Modal>
         </ul>
@@ -128,4 +122,3 @@ const Home = () => {
 };
 
 export default Home;
-

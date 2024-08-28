@@ -1,16 +1,16 @@
-import React, { useState } from 'react'
-import "./Close.css"
-import Rasm_1 from "../images/rasm1.png"
-import Rasm_2 from "../images/rasm2.png"
-import Rasm_3 from "../images/rasm3.png"
-import { useTranslation } from 'react-i18next'
-import { Button, Form, Input, Modal, message } from 'antd'
+import React, { useState } from 'react';
+import "./Close.css";
+import Rasm_1 from "../images/rasm1.png";
+import Rasm_2 from "../images/rasm2.png";
+import Rasm_3 from "../images/rasm3.png";
+import { useTranslation } from 'react-i18next';
+import { Button, Form, Input, Modal, message } from 'antd';
 
 const Close = () => {
-    const [open, setOpen] = useState(false)
-    const [name, setName] = useState("")
-    const [surname, setSurname] = useState("")
-    const [number, setNumber] = useState("")
+    const [open, setOpen] = useState(false);
+    const [name, setName] = useState("");
+    const [surname, setSurname] = useState("");
+    const [number, setNumber] = useState("");
 
     const sendMessage = () => {
         if (!name || !surname || !number) {
@@ -37,6 +37,9 @@ const Close = () => {
         .then(res => {
             message.success("Yuborildi");
             setOpen(false);
+            setName("");
+            setSurname("");
+            setNumber("");
         })
         .catch(err => {
             console.error(err);
@@ -45,11 +48,11 @@ const Close = () => {
     }
 
     const showModal = () => {
-        setOpen(true)
+        setOpen(true);
     }
 
     const closeModal = () => {
-        setOpen(false)
+        setOpen(false);
     }
 
     const { t } = useTranslation();
@@ -67,13 +70,28 @@ const Close = () => {
                             <Modal open={open} footer={null} onCancel={closeModal}>
                                 <Form>
                                     <Form.Item label="Ismingiz">
-                                        <Input onChange={(e) => setName(e.target.value)} className='home-input' placeholder='Ismingizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setName(e.target.value)}
+                                            value={name}
+                                            className='home-input'
+                                            placeholder='Ismingizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Form.Item label="Familiyangiz">
-                                        <Input onChange={(e) => setSurname(e.target.value)} className='home-input' placeholder='Familiyangizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setSurname(e.target.value)}
+                                            value={surname}
+                                            className='home-input'
+                                            placeholder='Familiyangizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Form.Item label="Numberingiz">
-                                        <Input onChange={(e) => setNumber(e.target.value)} className='home-input' placeholder='Numeringizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setNumber(e.target.value)}
+                                            value={number}
+                                            className='home-input'
+                                            placeholder='Numeringizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Button onClick={sendMessage}>Yuborish</Button>
                                 </Form>
@@ -85,13 +103,28 @@ const Close = () => {
                             <Modal open={open} footer={null} onCancel={closeModal}>
                                 <Form>
                                     <Form.Item label="Ismingiz">
-                                        <Input onChange={(e) => setName(e.target.value)} className='home-input' placeholder='Ismingizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setName(e.target.value)}
+                                            value={name}
+                                            className='home-input'
+                                            placeholder='Ismingizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Form.Item label="Familiyangiz">
-                                        <Input onChange={(e) => setSurname(e.target.value)} className='home-input' placeholder='Familiyangizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setSurname(e.target.value)}
+                                            value={surname}
+                                            className='home-input'
+                                            placeholder='Familiyangizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Form.Item label="Numberingiz">
-                                        <Input onChange={(e) => setNumber(e.target.value)} className='home-input' placeholder='Numeringizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setNumber(e.target.value)}
+                                            value={number}
+                                            className='home-input'
+                                            placeholder='Numeringizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Button onClick={sendMessage}>Yuborish</Button>
                                 </Form>
@@ -107,13 +140,28 @@ const Close = () => {
                             <Modal open={open} footer={null} onCancel={closeModal}>
                                 <Form>
                                     <Form.Item label="Ismingiz">
-                                        <Input onChange={(e) => setName(e.target.value)} className='home-input' placeholder='Ismingizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setName(e.target.value)}
+                                            value={name}
+                                            className='home-input'
+                                            placeholder='Ismingizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Form.Item label="Familiyangiz">
-                                        <Input onChange={(e) => setSurname(e.target.value)} className='home-input' placeholder='Familiyangizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setSurname(e.target.value)}
+                                            value={surname}
+                                            className='home-input'
+                                            placeholder='Familiyangizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Form.Item label="Numberingiz">
-                                        <Input onChange={(e) => setNumber(e.target.value)} className='home-input' placeholder='Numeringizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setNumber(e.target.value)}
+                                            value={number}
+                                            className='home-input'
+                                            placeholder='Numeringizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Button onClick={sendMessage}>Yuborish</Button>
                                 </Form>
@@ -125,18 +173,33 @@ const Close = () => {
                             <Modal open={open} footer={null} onCancel={closeModal}>
                                 <Form>
                                     <Form.Item label="Ismingiz">
-                                        <Input onChange={(e) => setName(e.target.value)} className='home-input' placeholder='Ismingizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setName(e.target.value)}
+                                            value={name}
+                                            className='home-input'
+                                            placeholder='Ismingizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Form.Item label="Familiyangiz">
-                                        <Input onChange={(e) => setSurname(e.target.value)} className='home-input' placeholder='Familiyangizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setSurname(e.target.value)}
+                                            value={surname}
+                                            className='home-input'
+                                            placeholder='Familiyangizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Form.Item label="Numberingiz">
-                                        <Input onChange={(e) => setNumber(e.target.value)} className='home-input' placeholder='Numeringizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setNumber(e.target.value)}
+                                            value={number}
+                                            className='home-input'
+                                            placeholder='Numeringizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Button onClick={sendMessage}>Yuborish</Button>
                                 </Form>
                             </Modal>
-                            <p className='close-text-a'>970.000 so’m /oy </p>
+                            <p className='close-text-a'>970.000 so’m /oy</p>
                         </li>
                     </ul>
                     <ul className='close-list'>
@@ -147,13 +210,28 @@ const Close = () => {
                             <Modal open={open} footer={null} onCancel={closeModal}>
                                 <Form>
                                     <Form.Item label="Ismingiz">
-                                        <Input onChange={(e) => setName(e.target.value)} className='home-input' placeholder='Ismingizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setName(e.target.value)}
+                                            value={name}
+                                            className='home-input'
+                                            placeholder='Ismingizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Form.Item label="Familiyangiz">
-                                        <Input onChange={(e) => setSurname(e.target.value)} className='home-input' placeholder='Familiyangizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setSurname(e.target.value)}
+                                            value={surname}
+                                            className='home-input'
+                                            placeholder='Familiyangizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Form.Item label="Numberingiz">
-                                        <Input onChange={(e) => setNumber(e.target.value)} className='home-input' placeholder='Numeringizni kiriting' />
+                                        <Input
+                                            onChange={(e) => setNumber(e.target.value)}
+                                            value={number}
+                                            className='home-input'
+                                            placeholder='Numeringizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Button onClick={sendMessage}>Yuborish</Button>
                                 </Form>
@@ -161,17 +239,32 @@ const Close = () => {
                         </li>
                         <p className='close-text'>{t("close.close_text_6")}</p>
                         <li className='close-item'>
-                            <Button className='close-btn-b' onClick={showModal}>{t("home.home_btn")}</Button>
+                        <Button className='close-btn-b' onClick={showModal}>{t("home.home_btn")}</Button>
                             <Modal open={open} footer={null} onCancel={closeModal}>
                                 <Form>
-                                    <Form.Item>
-                                        <Input onChange={(e) => setName(e.target.value)} className='home-input-a' placeholder='Ismingizni kiriting' />
+                                    <Form.Item label="Ismingiz">
+                                        <Input
+                                            onChange={(e) => setName(e.target.value)}
+                                            value={name}
+                                            className='home-input'
+                                            placeholder='Ismingizni kiriting'
+                                        />
                                     </Form.Item>
-                                    <Form.Item>
-                                        <Input onChange={(e) => setSurname(e.target.value)} className='home-input-b' placeholder='Familiyangizni kiriting' />
+                                    <Form.Item label="Familiyangiz">
+                                        <Input
+                                            onChange={(e) => setSurname(e.target.value)}
+                                            value={surname}
+                                            className='home-input'
+                                            placeholder='Familiyangizni kiriting'
+                                        />
                                     </Form.Item>
-                                    <Form.Item>
-                                        <Input onChange={(e) => setNumber(e.target.value)} className='home-input-c' placeholder='Numeringizni kiriting' />
+                                    <Form.Item label="Numberingiz">
+                                        <Input
+                                            onChange={(e) => setNumber(e.target.value)}
+                                            value={number}
+                                            className='home-input'
+                                            placeholder='Numeringizni kiriting'
+                                        />
                                     </Form.Item>
                                     <Button onClick={sendMessage}>Yuborish</Button>
                                 </Form>
@@ -182,8 +275,7 @@ const Close = () => {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
-export default Close
-
+export default Close;
