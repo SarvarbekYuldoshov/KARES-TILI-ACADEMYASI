@@ -779,7 +779,7 @@
     margin: 0 auto;
     padding: 20px;
     background-size: 300px 250px;
-    background-position: calc(50% - -40px) calc(50% - 200px);
+    background-position: calc(50% - -40px) calc(50% - 250px);
     background-repeat: no-repeat;
 }
   .hero-text{

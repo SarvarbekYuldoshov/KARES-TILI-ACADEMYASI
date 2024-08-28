@@ -49,7 +49,7 @@ const Section = () => {
                         <h1 className='section-title'>{t("section.section_title")}</h1>
                         <p className='section-text'>{t("section.section_text")}</p>
                     </li>
-                    <li className='section-item'>
+                    <li className='section-item-a'>
                         <Form>
                             <Form.Item>
                                 <Input
