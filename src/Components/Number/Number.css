@@ -212,26 +212,26 @@
   .number-title{
     height: 30px;
     font-size: 10px;
-    margin-left: 160px;
+    margin-left: 60px;
   }
   .number-title-a{
       width: 250px;
       height: 130px;
       font-size: 15px;
-      margin-left: 160px;
+      margin-left: 60px;
   }
   .number-text{
-    margin-left: 150px;
+    margin-left: 50px;
   }
   .number-title{
     font-size: 12px;
     width: 250px;
   }
   .number-btn{
-    margin-left: 160px;
+    margin-left: 30px;
   }
   .number-marqu{
-    width: 0px;
-    height: 0px;
+    margin-top: 20px;
+    margin-left: 90px;
   }
   }

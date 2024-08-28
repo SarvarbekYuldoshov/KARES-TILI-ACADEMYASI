@@ -306,33 +306,33 @@
       width: 300px;
   }
   .wrapper-title{
-    margin-left: 150px;
+    margin-left: 50px;
     width: 250px;
     height: 100px;
   }
   .wrapper-img{
     width: 250px;
     height: 150px;
-    margin-left: 140px;
+    margin-left: 30px;
   }
   .wrapper-title-a{
     width: 250px;
     text-align: center;
-    margin-left: 160px;
+    margin-left: 60px;
   }
   .wrapper-title-b{
     width: 350px;
-    margin-left: 190px;
+    margin-left: 90px;
   }
   .wrapper-text-a{
     text-align: center;
     width: 250px;
     font-size: 12px;
     height: 180px;
-    margin-left: 160px;
+    margin-left: 60px;
   }
   .wrapper-text{
-    margin-left: 160px;
+    margin-left: 60px;
     width: 250px;
     font-size: 14px;
     height: 100px;
