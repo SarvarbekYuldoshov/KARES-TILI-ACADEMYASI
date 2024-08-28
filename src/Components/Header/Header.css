@@ -378,9 +378,6 @@
   .header-text{
     width: 90px;
   }
-  .header-img{
-    margin-left: -40px;
-  }
   .header-title{
     font-size: 12px;
   }
@@ -390,8 +387,8 @@
   .container{
       width: 300px;
   }
-  .header-title{
-    
+  .header-img{
+    margin-left: 90px;
   }
   .header-text{
     display: none;

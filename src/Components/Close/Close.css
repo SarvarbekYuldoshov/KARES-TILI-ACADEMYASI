@@ -248,7 +248,7 @@
 
   }
   .close-list{
-    margin-left: 160px;
+    margin-left: 300px;
     width: 280px;
     height: 580px;
   }
@@ -271,6 +271,7 @@
     flex-wrap: wrap;
   }
   .close-text-a{
+    margin-left: 80px;
     margin-top: -10px;
   }
   }

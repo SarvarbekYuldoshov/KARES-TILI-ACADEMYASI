@@ -210,24 +210,25 @@
     width: 250px;
   }
   .number-title{
+    height: 30px;
     font-size: 10px;
-    margin-left: 90px;
+    margin-left: 160px;
   }
   .number-title-a{
       width: 250px;
       height: 130px;
       font-size: 15px;
-      margin-left: 90px;
+      margin-left: 160px;
   }
   .number-text{
-    margin-left: 80px;
+    margin-left: 150px;
   }
   .number-title{
     font-size: 12px;
     width: 250px;
   }
   .number-btn{
-    margin-left: 80px;
+    margin-left: 160px;
   }
   .number-marqu{
     width: 0px;

@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
-import "./Section.css"
-import { Button, Form, Input, message } from 'antd'
-import { useTranslation } from 'react-i18next'
+import React, { useState } from 'react';
+import './Section.css';
+import { Button, Form, Input, message } from 'antd';
+import { useTranslation } from 'react-i18next';
 
 const Section = () => {
-    const [name, setName] = useState("")
-    const [surname, setSurname] = useState("")
-    const [number, setNumber] = useState("")
+    const [name, setName] = useState("");
+    const [surname, setSurname] = useState("");
+    const [number, setNumber] = useState("");
 
     const sendMessage = () => {
         if (!name || !surname || !number) {
@@ -31,13 +31,21 @@ const Section = () => {
         })
         .then(res => res.json())
         .then(res => {
-            message.success("Yuborildi");
+            if (res.ok) {
+                message.success("Yuborildi");
+                // Clear input fields
+                setName("");
+                setSurname("");
+                setNumber("");
+            } else {
+                message.error("Xatolik yuz berdi, qayta urinib ko'ring.");
+            }
         })
         .catch(err => {
             console.error(err);
             message.error("Xatolik yuz berdi, qayta urinib ko'ring.");
         });
-    }
+    };
 
     const { t } = useTranslation();
 
@@ -53,6 +61,7 @@ const Section = () => {
                         <Form>
                             <Form.Item>
                                 <Input
+                                    value={name}
                                     onChange={(e) => setName(e.target.value)}
                                     className='section-input-a'
                                     placeholder='Ismingizni kiriting'
@@ -60,6 +69,7 @@ const Section = () => {
                             </Form.Item>
                             <Form.Item>
                                 <Input
+                                    value={surname}
                                     onChange={(e) => setSurname(e.target.value)}
                                     className='section-input-b'
                                     placeholder='Familiyangizni kiriting'
@@ -67,6 +77,7 @@ const Section = () => {
                             </Form.Item>
                             <Form.Item>
                                 <Input
+                                    value={number}
                                     onChange={(e) => setNumber(e.target.value)}
                                     className='section-input-c'
                                     placeholder='Numeringizni kiriting'
@@ -80,7 +91,8 @@ const Section = () => {
                 </ul>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default Section;
+

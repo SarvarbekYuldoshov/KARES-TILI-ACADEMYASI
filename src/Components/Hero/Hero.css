@@ -774,17 +774,12 @@
       width: 300px;
   }
   .hero{
-    background-image: url(../images/rasm_3.png);
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background-size: 300px 250px;
-    background-position: calc(50% - -40px) calc(50% - 250px);
-    background-repeat: no-repeat;
+
+    background-size:0px 0px;
 }
   .hero-text{
-    margin-left: 100px;
-    margin-top: 250px;
+    margin-left: 150px;
+    margin-top: -1px;
     width: 300px;
     height: 22px;
     font-family: "Montserrat" ,sans-serif;
@@ -794,17 +789,10 @@
     text-align: left;    
 }
 .hero-title{
-    margin-top: 20px;
-    margin-left: 100px;
-    width: 300px;
-    height: 105px;
-    font-family: "Gilroy" ,sans-serif;
-    font-size: 15px;
-    text-align: left;
-    color: #000000;    
+   display: none; 
 }
 .hero-text-a{
-    margin-left: 100px;
+    margin-left: 120px;
     text-align: center;
     width: 300px;
     height: 66px;
@@ -817,39 +805,28 @@
 }
 .hero-text-b{
     margin-top: -50px;
-    margin-left: 100px;
+    margin-left: 120px;
     width: 300px;
-    height: 66px;
+    height: 40px;
     font-family: "Montserrat" sans-serif;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 21.94px;
-    text-align: left;   
+    text-align: center; 
     color: #333333;  
 }
 .hero-btn{
-    margin-left: 100px;
-    margin-top: 30px;
-    border-radius: 20px;
-    border: 1px solid rgb(127, 127, 222);
-    padding: 15px 20px;
-    background: linear-gradient(90deg, #5FACA9 0%, #73C0BD 50.57%, #5FACA9 100%);
-    color: #FFFFFF;
-    font-family: Gill Sans;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 21.47px;
-    letter-spacing: 0.01em;
-    text-align: left;   
+  display: none;
 }
 .hero-btn:hover{
     transform: scale(0.97);
     transition: 2s;
 }
 .hero-text-c{
-    font-size: 12px;
-    margin-left: 100px;
-    margin-top: 50px;
+    width: 200px;
+    font-size: 14px;
+    margin-left: 185px;
+    margin-top: 1px;
 }
   .hero-list{
     flex-wrap: wrap;

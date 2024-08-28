@@ -257,23 +257,23 @@
       width: 300px;
   }
   .home-title{
-    margin-left: -20px;
-    font-size: 20px;
+    margin-left: 20px;
+    font-size: 18px;
     width: 500px;
   }
   .home-text{
-    margin-left: 85px;
+    margin-left: 135px;
     font-size:18px;
     width: 300px;
     text-align: center;
   }
   .home-img{
-    margin-left: 180px;
+    margin-left: 220px;
     width: 120px;
     height: 120px;
   }
   .home-btn{
-    margin-left: 160px;
+    margin-left: 210px;
   }
   .home-input-a{
     width: 200px;
