@@ -49,13 +49,13 @@
     transition: 2s;
 }
 .home-input-a{
-  width: 450px;
+  width: 400px;
 }
 .home-input-b{
-    width: 450px;
+    width: 400px;
   }
 .home-input-c{
-    width: 450px;
+    width: 400px;
 }
 
 
@@ -149,11 +149,7 @@
   @media(max-width:920px){
   .container{
       width: 800px;
-  }
-  .home-container{
-    margin-top: 550px;
-  }
-  
+  }  
   }
   @media(max-width:820px){
   .container{
@@ -184,58 +180,63 @@
   font-size: 15px;
   width: 190px;
   margin-left: 60px;
- }
- .home-btn{
-  margin-left: 0px;
  }  
-  
-  
   }
   
   @media(max-width:620px){
   .container{
       width: 500px;
   }
-  .home-container{
-    justify-content: center;
-  }
   .home-title{
     font-size: 25px;
+    width: 500px;
   }
   .home-text{
-    font-size:15px;
-    width: 300px;
+    margin-left: 15px;
+    font-size:14px;
+    width: 200px;
+    text-align: center;
   }
   .home-img{
-    margin-left: 150px;
-    width: 120px;
-    height: 120px;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
   }
   .home-list{
-    gap: 40px;
+    gap: 50px;
     flex-wrap: wrap;
-  }
-  .home-item{
-    width: 250px;
-  }
-  .home-btn{
-    margin-left: 130px;
-  }
-  
-  
+  }  
   }
   @media(max-width:520px){
   .container{
       width: 400px;
   }
-  .home-img{
-    margin-left: 50px;
+  .home-container{
+    justify-content: center;
+  }
+  .home-title{
+    margin-left: -35px;
+    font-size: 22px;
+    width: 500px;
   }
   .home-text{
-    margin-left: 5px;
+    margin-left: 65px;
+    font-size:18px;
+    width: 300px;
+    text-align: center;
   }
+  .home-img{
+    margin-left: 150px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+  }
+  .home-list{
+    gap: 50px;
+    flex-wrap: wrap;
+  } 
   .home-btn{
-    margin-left: 70px;
+    margin-left: 130px;
   }
   
   
@@ -245,16 +246,36 @@
       width: 300px;
   }
   .home-title{
-    margin-left: 30px;
-  }
-  .home-img{
-    margin-right: 50px;
+    margin-left: -45px;
+    font-size: 22px;
+    width: 500px;
   }
   .home-text{
-    width: 200px;
-    margin-left: 30px;
+    margin-left: 60px;
+    font-size:18px;
+    width: 300px;
+    text-align: center;
   }
+  .home-img{
+    margin-left: 160px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+  }
+  .home-list{
+    gap: 50px;
+    flex-wrap: wrap;
+  } 
   .home-btn{
-    margin-left: 50px;
+    margin-left: 130px;
+  }
+  .home-input-a{
+    width: 200px;
+  }
+  .home-input-b{
+      width: 200px;
+    }
+  .home-input-c{
+      width: 200px;
   }
   }
