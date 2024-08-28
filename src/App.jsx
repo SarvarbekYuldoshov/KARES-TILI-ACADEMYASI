@@ -21,17 +21,17 @@ function App() {
     <>
       <div className='App'>
           <Header/>
-          <Hero/>
-          <Home/>
-          <Model/>
-          <Wrapper/>
-          <Hover/>
-          <Number/>
-          <Close/>
-          <Main/>
-          <Faq/>
-          <Section/>
-          <Footer/>
+          {/* <Hero/> */}
+          {/* <Home/> */}
+          {/* <Model/> */}
+          {/* <Wrapper/> */}
+          {/* <Hover/> */}
+          {/* <Number/> */}
+          {/* <Close/> */}
+          {/* <Main/> */}
+          {/* <Faq/> */}
+          {/* <Section/> */}
+          {/* <Footer/> */}
       </div>
     </>
   )
