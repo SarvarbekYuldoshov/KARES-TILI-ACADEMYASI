@@ -31,7 +31,7 @@ function App() {
           <Main/>
           <Faq/>
           <Section/>
-          <Footer/>
+          {/* <Footer/> */}
       </div>
     </>
   )
