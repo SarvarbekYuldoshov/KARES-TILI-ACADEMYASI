@@ -23,7 +23,7 @@ function App() {
           <Header/>
           <Hero/>
           <Home/>
-          <Model/>
+          {/* <Model/> */}
           {/* <Wrapper/> */}
           {/* <Hover/> */}
           {/* <Number/> */}
