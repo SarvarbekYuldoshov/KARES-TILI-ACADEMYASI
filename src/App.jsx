@@ -22,7 +22,7 @@ function App() {
       <div className='App'>
           <Header/>
           <Hero/>
-          <Home/>
+          {/* <Home/> */}
           {/* <Model/> */}
           {/* <Wrapper/> */}
           {/* <Hover/> */}
