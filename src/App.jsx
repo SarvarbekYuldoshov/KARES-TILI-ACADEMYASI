@@ -24,7 +24,7 @@ function App() {
           <Hero/>
           <Home/>
           <Model/>
-          <Wrapper/>
+          {/* <Wrapper/> */}
           {/* <Hover/> */}
           {/* <Number/> */}
           {/* <Close/> */}
