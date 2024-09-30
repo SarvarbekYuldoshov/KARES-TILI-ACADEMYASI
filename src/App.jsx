@@ -28,7 +28,7 @@ function App() {
           <Hover/>
           <Number/>
           <Close/>
-          <Main/>
+          {/* <Main/> */}
           {/* <Faq/> */}
           {/* <Section/> */}
           {/* <Footer/> */}
