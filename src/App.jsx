@@ -27,7 +27,7 @@ function App() {
           <Wrapper/>
           <Hover/>
           <Number/>
-          <Close/>
+          {/* <Close/> */}
           {/* <Main/> */}
           {/* <Faq/> */}
           {/* <Section/> */}
