@@ -29,7 +29,7 @@ function App() {
           <Number/>
           <Close/>
           <Main/>
-          <Faq/>
+          {/* <Faq/> */}
           {/* <Section/> */}
           {/* <Footer/> */}
       </div>
