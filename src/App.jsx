@@ -26,7 +26,7 @@ function App() {
           <Model/>
           <Wrapper/>
           <Hover/>
-          <Number/>
+          {/* <Number/> */}
           {/* <Close/> */}
           {/* <Main/> */}
           {/* <Faq/> */}
