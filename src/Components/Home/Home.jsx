@@ -20,7 +20,7 @@ const Home = () => {
         const { name, surname, number } = values;
 
         const token = "7288526920:AAH-vd_HYqMjr_qE5zG6idFBNxfFeMi9aFo";
-        const chat_id = 6801549705;
+        const chat_id =6801549705;
         const url = `https://api.telegram.org/bot${token}/sendMessage`;
         const messageText = `Ism: ${name}\nFamiliya: ${surname}\nNumber: ${number}`;
 
@@ -38,7 +38,7 @@ const Home = () => {
           .then(res => {
             message.success("Yuborildi");
             setOpen(false);
-            form.resetFields(); // Clear form fields
+            form.resetFields(); 
           })
           .catch(err => {
             console.error(err);
