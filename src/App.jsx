@@ -30,7 +30,7 @@ function App() {
           <Close/>
           <Main/>
           <Faq/>
-          <Section/>
+          {/* <Section/> */}
           {/* <Footer/> */}
       </div>
     </>
